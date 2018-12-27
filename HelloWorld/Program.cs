@@ -8,8 +8,14 @@ namespace HelloWorld
 {
     class Program
     {
+
+        
         static void Main(string[] args)
         {
+
+            var foo = new Foo<string>();
+            var foo2 = new Foo<int>();
+
             Console.WriteLine("Hello, World!");
 
             var rand = new Random();
